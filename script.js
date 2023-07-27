@@ -1,3 +1,11 @@
+
+new Vue({
+  el: '#app',
+  data() {
+    return {
+      bg: 'bio' };
+
+  } });
 $(function () {
  $(".menu-link").click(function () {
   $(".menu-link").removeClass("is-active");
