@@ -383,3 +383,47 @@ new Vue({
   } });
 </script>
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div :class="['bg', bg]">
+    <header>
+      <nav>
+        <ul>
+          <li><a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a></li>
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Blog</a></li>
+          <li><a class="link-projectsb" href="#projectsb" @click="bg = 'projectsb'">Menu</a></li>
+          <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find Me</a></li>
+        </ul>
+      </nav>
+      <div class="transition transition-bio"></div>
+      <div class="containerb transition transition-projects"></div>
+      <div class="transition transition-projectsb"></div>,
+      <div class="transition transition-find-me"></div>
+      <h1>Rayy</h1>
+    </header>
+    <div class="dots dots1"></div>
+    <div class="dots dots2"></div>
+    <main>
+      <transition name="slide-fade" mode="out-in">
+        <p key="bio" v-if="bg==='bio'">Hi! I'm a Rayy Babyy
+        Rayy is a content creator who loves to share her passion for all things creative. She is a talented artist, musician, and writer, and she loves to use her skills to inspire others. Rayy's content is always informative and engaging, and she always makes sure to include her own unique perspective. She is a valuable member of the online community, and she is always looking for new ways to connect with her audience.</p>
+	<p key="projects" v-if="bg==='projects'">
+<img src="./assets/images/1.jpg" alt="the back of random person">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+<img src="./assets/images/2.jpg" alt="an eagle" style="--f:.12;--r:5px">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="./assets/images/3.jpg" alt="a cup of something to drink, probably some tea" style="--f:.08;--r:20px">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+</p>
+        <p key="projectsb" v-if="bg==='projectsb'">2 custom pics, 2 vids $25 3 custom pics, 3 vids $20 Pair of panties+25 min session $30 25 min video call+1 dropbox $30 Any choice of content+1 drop $15</p>
+        <p key="find-me" v-if="bg==='find-me'">
+        		<a href="https://www.snapchat.com/add/rayybabyy1998?share_id=puLrENKMRjA&locale=en-US" target="_blank" rel="noopener">Snapchat</a>
+        		<a href="https://www.reddit.com/u/BoatsnHoez442200" target="_blank" rel="noopener">Reddit</a>
+        		<a href="https://twitter.com/Raybaby2023" target="_blank" rel="noopener">Twitter</a>
+        			</p>   
+      </transition>
+    </main>
+  </div>
+</div>
