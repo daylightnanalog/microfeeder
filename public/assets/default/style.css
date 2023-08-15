@@ -494,6 +494,7 @@ div#masonry:hover img:hover { opacity: 1; filter: blur(0px);  }
   padding: 75px 0;
   margin: 0 auto;
   width: 800px;
+  background: var(--purple-brown);
 }
 .container-general .gallery-wrap {
   display: flex;
