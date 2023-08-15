@@ -483,7 +483,7 @@ div#masonry:hover img:hover { opacity: 1; filter: blur(0px);  }
 
 .swiper-slide {
   text-align: center;
-  background: #fff;
+  background: var(--purple-brown);
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
