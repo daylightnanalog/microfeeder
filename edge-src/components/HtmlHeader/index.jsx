@@ -25,7 +25,7 @@ export default class HtmlHeader extends React.Component {
       <head>
         <meta charSet="utf-8"/>
         <title>{title}</title>
-        {canonicalUrl && <link rel="canonical" href={canonicalUrl}#bio />}
+        {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         {description && <meta name="description" content={description}/>}
         {webpackJsList && webpackJsList.length > 0 && webpackJsList.map((js) => {
