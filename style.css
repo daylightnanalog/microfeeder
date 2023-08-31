@@ -157,7 +157,7 @@ button{float:right}
 #email,#name{width:50%}
 .honeypot-field{display:none}
 .pure-form-stacked .form-elements .pure-group{box-shadow:1px 3px 13px 0 #9e8484;padding-top:5px;padding-bottom:5px;margin-top:1em;border-top-left-radius:1em;border-top-right-radius:1em;border-bottom-left-radius:1em;border-bottom-right-radius:1em;margin-bottom:1em;background-image:linear-gradient(75deg,#355c7d 0,#000 0,#c06c84 100%);backdrop-filter:blur(9.12px);transform:translatex(0) translatey(0)!important;padding-right:5px;padding-left:5px}
-#message{background-color:#d7cfcf;margin-left:1em;color:#594949;transform:translatex(0) translatey(0);border-top-left-radius:2em;border-top-right-radius:2em;border-bottom-left-radius:2em;border-bottom-right-radius:2em}
+#message{background-color:#d7cfcf;color:#594949;transform:translatex(0) translatey(0);border-top-left-radius:2em;border-top-right-radius:2em;border-bottom-left-radius:2em;border-bottom-right-radius:2em}
 #name{border-top-left-radius:2em;border-top-right-radius:2em;border-bottom-left-radius:2em;border-bottom-right-radius:2em;color:#594949}
 #email{border-bottom-right-radius:2em;border-bottom-left-radius:2em;border-top-right-radius:2em;border-top-left-radius:2em;color:#594949}
 #color{border-top-left-radius:2em;border-top-right-radius:2em;border-bottom-left-radius:2em;border-bottom-right-radius:2em;color:#594949}
@@ -174,3 +174,4 @@ main{font-size:1em}
 .custom-form .form-group .form-control:focus{box-shadow:none;border-bottom-color:rgba(0,0,0,.12)}
 .custom-form .form-group .form-control:focus~.animated-label{top:0;opacity:1;color:#8e44ad;font-size:12px}
 .custom-form .form-group .form-control:focus~.animated-label:after{visibility:visible;width:100%;left:0}
+
