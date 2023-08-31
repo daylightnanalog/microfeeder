@@ -164,6 +164,13 @@ button{float:right}
 .form-elements .pure-group label{float:none;padding-top:0;padding-bottom:.5em;padding-left:1em}
 .pure-form-stacked .form-elements .pure-group{border-top-left-radius:3em!important;border-top-right-radius:3em!important;border-bottom-right-radius:3em!important;border-bottom-left-radius:3em!important;padding-right:1em!important;padding-bottom:1em!important;padding-top:1em!important;font-size:1em;padding-left:1em!important}
 main{font-size:1em}
+.animated-label{position:relative;width:50%;margin:20px auto}
+.animated-label input,.animated-label select{display:block;width:100%;height:46px;outline:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;line-height:1;background:rgba(255,255,255,.8);transition:all .2s ease-in-out;box-shadow:0 0 4px rgba(0,0,0,.4);padding:0 0 0 8px}
+.animated-label input:focus,.animated-label select:focus{background:#fff;outline:0}
+.animated-label input:focus,.animated-label input:valid,.animated-label select:focus,.animated-label select:valid{padding:24px 0 0 8px;color:#b8242b;font-weight:700;font-size:17px;transform:translate3d(0,-10px,0)}
+.animated-label input:focus+label,.animated-label input:valid+label,.animated-label select:focus+label,.animated-label select:valid+label{color:#4c4b4b;font-weight:700;transform:translate3d(0,-10px,0);font-size:14px}
+.animated-label label{position:absolute;top:15px;left:8px;color:#4c4b4b;font-size:17px;transform:translate3d(0,0,0);transition:all .2s ease-in-out}
+body{font-family:Helvetica,Arial,sans-serif;font-size:17px;background:#383737}
 .custom-form{font-family:Roboto,sans-serif;font-weight:400;font-size:16px;max-width:360px;margin:40px auto 40px;background:#fff;padding:40px;border-radius:4px}
 .custom-form .btn-primary{background-color:#8e44ad;border-color:#8e44ad}
 .custom-form .form-group{position:relative;padding-top:16px;margin-bottom:16px}
@@ -174,4 +181,3 @@ main{font-size:1em}
 .custom-form .form-group .form-control:focus{box-shadow:none;border-bottom-color:rgba(0,0,0,.12)}
 .custom-form .form-group .form-control:focus~.animated-label{top:0;opacity:1;color:#8e44ad;font-size:12px}
 .custom-form .form-group .form-control:focus~.animated-label:after{visibility:visible;width:100%;left:0}
-
