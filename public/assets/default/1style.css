@@ -193,7 +193,7 @@ message{width:inherit}
 .navbar>div{padding:3.472vw 2.083vw;margin:3.472vw;font-size:1.389vw}
 .navbar .logo-icon{position:relative;left:-1.389vw}
 .navbar .logo{position:relative;right:34.722vw;font-size:.764vw;font-weight:600;text-transform:uppercase}
-.bimg bimg{width:20vw}
+.bimg img{width:20vw}
 
 .title{top:16.667vw;left:20.139vw;z-index:2}
 .title h11{text-transform:uppercase;font-weight:900;letter-spacing:-.347vw;margin-bottom:1.389vw;height:20vh;width:60vw}
@@ -216,12 +216,12 @@ message{width:inherit}
 .media bul lib:not(:last-child){padding-right:4.167vw}
 .left-right{position:absolute;right:2.778vw;bottom:-3%}
 .left-right bul lib{display:inline-block;padding:.694vw 1.042vw;margin:20px 20px 20px 0;font-size:1.875vw}
-bimg{opacity:0;animation:img-appear 1s linear forwards;animation-delay:2.4s}
+.bimg{opacity:0;animation:img-appear 1s linear forwards;animation-delay:2.4s}
 .bimg::after{content:"";top:0;left:0;width:0%;height:100%;background:#8c6c79;position:absolute;animation:rev-img 1.5s cubic-bezier(.19,1,.22,1) forwards;animation-delay:2s}
 .bomtainer .navbar .logo{padding-left:0;margin-left:0;left:0;margin-top:15vh;font-size:1em;white-space:pre-line;float:left;display:inline-flex;margin-right:0;width:100vw!important;padding-top:0;margin-top:2.708vw;margin-bottom:0;transform:translatex(-2.292vw) translatey(25.694vw)!important}
 .bomtainer,.bomtainer .navbar .logo{transform:translatex(0) translatey(0)}
 .media bul lib{margin-top:3em;padding-top:1em;padding-right:2.222vw!important;padding-bottom:10em;padding-left:3em;font-size:2.153vw;display:inline-flex}
-.bomtainer .bimg bimg,.bomtainer .tag,.title h1 span{display:flex}
+.bomtainer .bimg img,.bomtainer .tag,.title h1 span{display:flex}
 .bomtainer .title h31{margin-bottom:4.306vw;align-items:flex-end;transform:translatex(17.222vw) translatey(-54.75vw)}
 .bomtainer .title h11,.bomtainer .title h2,.bomtainer .title h3{display:flex;flex-wrap:wrap;position:static}
 .bomtainer .title h21{padding-top:.139vw;margin-top:5.486vw;transform:translatex(10.588vw) translatey(3.62vw)!important}
