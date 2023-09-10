@@ -2,7 +2,7 @@
 html{display:block}
 *,:after,:before{box-sizing:content-box}
 body{font-family:Trocchi,Georgia,serif;line-height:1.5;color:var(--egg-shell);width:100vw}
-a{color:inherit;text-transform:uppercase;font-size:.5em;color:#fff;text-decoration:none;position:relative}
+a{color:inherit;text-transform:uppercase;font-size:1em;color:#fff;text-decoration:none;position:relative}
 .bg{background:inherit;min-height:100vh;padding:5vh 0 1.5rem;transition:background 0s 1s,color .6s}
 .projects{color:var(--purple-brown)}
 .projectsb{color:var(--nurple-brown)}
