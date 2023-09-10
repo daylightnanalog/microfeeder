@@ -7,7 +7,7 @@ a{color:inherit;text-transform:uppercase;font-size:.5em;color:#fff;text-decorati
 .projects{color:var(--purple-brown)}
 .projectsb{color:var(--nurple-brown)}
 .bg:after{content:"";border:var(--border-width) solid;position:fixed;left:0;top:0;bottom:0;right:0;z-index:12;pointer-events:none;transition:1s}
-.thanksTrans-bio{background:var(--dark-peach)}
+.thanksTrans-bio{background:var(--nark-peach)}
 .bio h1{background-color:var(--purple-brown)}
 .bio,.link-bio{background:var(--purple-brown)}
 .biob,.link-biob{background:var(--nurple-brown)}
