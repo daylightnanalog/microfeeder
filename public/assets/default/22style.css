@@ -218,8 +218,6 @@ message{width:inherit}
 .animated-label{font-size:1em;margin-left:inherit}
 .imgBox{border-radius:.694vw;width:6.944vw;height:3.472vw;display:inline-block;box-shadow:rgba(255,255,255,.3) 0 5vw 6vw -8vw,transparent 0 4.5vw 5vw -6vw,rgba(50,50,80,.5) 0 4vw 8vw -2vw,rgba(0,0,0,.8) 0 4vw 5vw -3vw;transition:.3s ease;margin:2.083vw}
 .imgBox:hover{cursor:pointer;filter:brightness(120%);-webkit-filter:brightness(120%);transition:0s;transform:translate(0,5%)}
-{position:relative;display:flex;justify-content:space-between;height:5.556vw;align-items:center}
->div{padding:3.472vw 2.083vw;margin:3.472vw;font-size:1.389vw}
 .logo-icon{position:relative;left:-1.389vw}
 .logo{right:34.722vw;font-size:.764vw;font-weight:600;text-transform:uppercase}
 .title{top:16.667vw;left:20.139vw;z-index:2}
