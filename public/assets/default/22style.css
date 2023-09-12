@@ -274,8 +274,8 @@ message{width:inherit}
 .shape{width:100%;height:100%;transform-origin:50%}
 .face,.face-wrapper{overflow:hidden;transform-origin:0 0;backface-visibility:visible;opacity:.8}
 .face{background-size:100% 100%!important;background-position:center}
-.face-wrapper .face{left:100%;width:100%;height:100%;margin:0.347vw}
-.photon-shader{position:absolute;left:0;top:0;width:100%;height:100%}
+.face-wrapper .face{left:100%;width:100%;height:100%;margin:.347vw}
+.photon-shader{position:absolute;left:0;top:0;width:100%;height:100%;border-top-left-radius:1em;border-top-right-radius:1em;border-bottom-left-radius:1em;border-bottom-right-radius:1em}
 .side{left:50%}
 .cr,.cr .side{height:100%}
 [class*=cuboid] .bk,[class*=cuboid] .ft{width:100%;height:100%}
@@ -296,24 +296,24 @@ message{width:inherit}
 .pornhub .ft{transform:translateZ(2.5em)}
 .pornhub .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .Fetlife,.pornhub .bm,.pornhub .lt,.pornhub .rt,.pornhub .tp{width:5em;height:5em}
-.Fetlife:hover .face,.pornhub:hover .face,.reddit:hover .face{border-radius:0.347vw}
-.pornhub .face{border:0.139vw double transparent;background-size:100% 100%;background:url(../../assets/default/pornhub.png)}
-.pornhub .face::after{content:"";border:0.139vw double transparent;background:#000}
-.Fetlife:hover{animation:spin1 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:rgba(255,255,0,.657);box-shadow:inset 0.069vw 0.069vw 0.347vw 0.347vw rgba(255,255,0,.657)}
+.Fetlife:hover .face,.pornhub:hover .face,.reddit:hover .face{border-radius:.347vw}
+.pornhub .face{border:.139vw double transparent;background-size:100% 100%;background:url(../assets/default/pornhub.png)}
+.pornhub .face::after{content:"";border:.139vw double transparent;background:#000}
+.Fetlife:hover{animation:spin1 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:rgba(255,255,0,.657);box-shadow:inset .069vw .069vw .347vw .347vw rgba(255,255,0,.657)}
 .Fetlife{transform:translate3D(5em,0,0) rotateX(0) rotateY(0) rotateZ(0);opacity:1;margin:-2.5em 0 0-2.5em}
 .Fetlife .ft{transform:translateZ(2.5em)}
 .Fetlife .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .Fetlife .bm,.Fetlife .lt,.Fetlife .rt,.Fetlife .tp,.reddit{width:5em;height:5em}
-.Fetlife .face{border:0.139vw double transparent;background:url(../../assets/default/fetlife.png)}
+.Fetlife .face{border:.139vw double transparent;background:url(../assets/default/fetlife.png)}
 .reddit:active,.reddit:hover{transform:scale(.5em)}
-.reddit:hover{background-color:#fff5;box-shadow:inset 0.069vw 0.069vw 0.347vw 0.347vw rgba(255,255,0,.657);animation:spin2 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards}
+.reddit:hover{background-color:#fff5;box-shadow:inset .069vw .069vw .347vw .347vw rgba(255,255,0,.657);animation:spin2 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards}
 .reddit{transform:translate3D(10em,0,0) rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);opacity:1;margin:-2.5em 0 0-2.5em}
 .reddit .ft{transform:translateZ(2.5em)}
 .reddit .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .reddit .bm{width:5em;height:5em}
 .reddit .lt,.reddit .rt{height:5em}
 .reddit .tp,.snapchat{width:5em;height:5em}
-.reddit .face{border:0.139vw double transparent;background:url(../../assets/default/reddit.png)}
+.reddit .face{border:.139vw double transparent;background:url(../assets/default/reddit.png)}
 .reddit .bk,.reddit .ft{width:5em;margin-left:0}
 .reddit .lt,.reddit .rt{width:5em}
 .reddit .bm,.reddit .bm .photon-shader,.reddit .tp,.reddit .tp .photon-shader{border-radius:0}
@@ -335,19 +335,19 @@ message{width:inherit}
 .reddit .cr-3 .s1{transform:rotateY(315deg) translate3D(-50%,0,-.025em)}
 .reddit .cr-3 .s2{transform:rotateY(345deg) translate3D(-50%,0,-.025em)}
 .reddit .side{width:.025em}
-.snapchat:hover{animation:spin3 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:#fff5;box-shadow:inset 0.069vw 0.069vw 0.347vw 0.347vw rgba(255,255,0,.657)}
+.snapchat:hover{animation:spin3 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:#fff5;box-shadow:inset .069vw .069vw .347vw .347vw rgba(255,255,0,.657)}
 .snapchat{transform:translate3D(-5em,0,0) rotateX(0) rotateY(0) rotateZ(0);opacity:1;margin:-2.5em 0 0-2.5em}
 .snapchat .ft{transform:translateZ(2.5em)}
 .snapchat .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .snapchat .bm,.snapchat .lt,.snapchat .rt,.snapchat .tp,.tiktok{width:5em;height:5em}
-.snapchat:hover .face,.tiktok:hover .face{border-radius:0.347vw}
-.snapchat .face{border:0.139vw double transparent;background:url(../../assets/default/snapchat.png)}
-.tiktok:hover{animation:spin4 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:#fff5;box-shadow:inset 0.069vw 0.069vw 0.347vw 0.347vw rgba(255,255,0,.657)}
+.snapchat:hover .face,.tiktok:hover .face{border-radius:.347vw}
+.snapchat .face{border:.139vw double transparent;background:url(../assets/default/snapchat.png)}
+.tiktok:hover{animation:spin4 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:#fff5;box-shadow:inset .069vw .069vw .347vw .347vw rgba(255,255,0,.657)}
 .tiktok{transform:translate3D(-10em,0,0) rotateX(0) rotateY(0) rotateZ(0);opacity:1;margin:-2.5em 0 0-2.5em}
 .tiktok .ft{transform:translateZ(2.5em)}
 .tiktok .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .tiktok .bm,.tiktok .lt,.tiktok .rt,.tiktok .tp{width:5em;height:5em}
-.tiktok .face{border:0.139vw double transparent;background:url(../../assets/default/tiktok.png)}
+.tiktok .face{border:.139vw double transparent;background:url(../assets/default/tiktok.png)}
 .h5,.lkd,.snap,.tikk,.twtr{animation:spin1 1s ease-in-out alternate infinite}
 #myForm .custom-form{margin-top:30vh}
 #find-me .wrap{margin-top:-1.458vw}
