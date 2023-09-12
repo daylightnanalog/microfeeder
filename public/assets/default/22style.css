@@ -218,10 +218,10 @@ message{width:inherit}
 .animated-label{font-size:1em;margin-left:inherit}
 .imgBox{border-radius:.694vw;width:6.944vw;height:3.472vw;display:inline-block;box-shadow:rgba(255,255,255,.3) 0 5vw 6vw -8vw,transparent 0 4.5vw 5vw -6vw,rgba(50,50,80,.5) 0 4vw 8vw -2vw,rgba(0,0,0,.8) 0 4vw 5vw -3vw;transition:.3s ease;margin:2.083vw}
 .imgBox:hover{cursor:pointer;filter:brightness(120%);-webkit-filter:brightness(120%);transition:0s;transform:translate(0,5%)}
-.navbar{position:relative;display:flex;justify-content:space-between;height:5.556vw;align-items:center}
-.navbar>div{padding:3.472vw 2.083vw;margin:3.472vw;font-size:1.389vw}
-.navbar .logo-icon{position:relative;left:-1.389vw}
-.navbar .logo{right:34.722vw;font-size:.764vw;font-weight:600;text-transform:uppercase}
+{position:relative;display:flex;justify-content:space-between;height:5.556vw;align-items:center}
+>div{padding:3.472vw 2.083vw;margin:3.472vw;font-size:1.389vw}
+.logo-icon{position:relative;left:-1.389vw}
+.logo{right:34.722vw;font-size:.764vw;font-weight:600;text-transform:uppercase}
 .title{top:16.667vw;left:20.139vw;z-index:2}
 .title h11{text-transform:uppercase;font-weight:900;letter-spacing:-.347vw;margin-bottom:1.389vw;height:20vh;width:60vw}
 .title,.title h11 .text-one{position:absolute}
@@ -229,7 +229,7 @@ message{width:inherit}
 .title h21{top:0;left:0;color:#eda7a7;z-index:-1;font-size:3em;font-weight:900;letter-spacing:.139vw}
 .title h11,.title h21 span,.title h3{font-size:4em}
 .title h31{font-weight:900;line-height:.8}
-.navbar .logo,.title h11,.title h21,.title h31,.title h31 .text-two,.title p{position:relative}
+.logo,.title h11,.title h21,.title h31,.title h31 .text-two,.title p{position:relative}
 .title h31 .text-two label{position:relative;font-size:4.514vw;top:3.819vw;left:-10.764vw}
 .title h31,.title p{text-transform:uppercase}
 .title p{width:30vw;font-size:.694vw;top:-4.514vw;height:8em}
@@ -245,8 +245,8 @@ message{width:inherit}
 .left-right bul lib{display:inline-block;padding:.694vw 1.042vw;margin:1.389vw 1.389vw 1.389vw 0;font-size:1.875vw}
 .bimg{opacity:0;animation:img-appear 1s linear forwards;animation-delay:2.4s}
 .bimg::after{content:"";top:0;left:0;width:0%;height:100%;background:#8c6c79;position:absolute;animation:rev-img 1.5s cubic-bezier(.19,1,.22,1) forwards;animation-delay:2s}
-.bomtainer .navbar .logo{padding-left:0;margin-left:0;left:0;margin-top:15vh;font-size:1em;white-space:pre-line;float:left;display:inline-flex;margin-right:0;width:100vw!important;padding-top:0;margin-top:2.708vw;margin-bottom:0;transform:translatex(-2.292vw) translatey(25.694vw)!important}
-.bomtainer,.bomtainer .navbar .logo,.bomtainer .title h21{transform:translatex(0) translatey(0)}
+.bomtainer  .logo{padding-left:0;margin-left:0;left:0;margin-top:15vh;font-size:1em;white-space:pre-line;float:left;display:inline-flex;margin-right:0;width:100vw!important;padding-top:0;margin-top:2.708vw;margin-bottom:0;transform:translatex(-2.292vw) translatey(25.694vw)!important}
+.bomtainer,.bomtainer  .logo,.bomtainer .title h21{transform:translatex(0) translatey(0)}
 .media bul lib{margin-top:3em;padding-top:1em;padding-right:2.222vw!important;padding-bottom:10em;padding-left:3em;font-size:2.153vw;display:inline-flex}
 .bomtainer .bimg img,.bomtainer .tag,.title h1 span{display:flex}
 .bomtainer .title h31{margin-bottom:4.306vw;align-items:flex-end;display:inline-block;transform:translatex(26.597vw) translatey(-20.208vw)}
