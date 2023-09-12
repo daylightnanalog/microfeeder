@@ -297,14 +297,14 @@ message{width:inherit}
 .pornhub .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .Fetlife,.pornhub .bm,.pornhub .lt,.pornhub .rt,.pornhub .tp{width:5em;height:5em}
 .Fetlife:hover .face,.pornhub:hover .face,.reddit:hover .face{border-radius:5px}
-.pornhub .face{border:2px double transparent;background-size:100% 100%;background:url(..//..//assets/default/pornhub.png)}
+.pornhub .face{border:2px double transparent;background-size:100% 100%;background:url(../../assets/default/pornhub.png)}
 .pornhub .face::after{content:"";border:2px double transparent;background:#000}
 .Fetlife:hover{animation:spin1 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:rgba(255,255,0,.657);box-shadow:inset 1px 1px 5px 5px rgba(255,255,0,.657)}
 .Fetlife{transform:translate3D(5em,0,0) rotateX(0) rotateY(0) rotateZ(0);opacity:1;margin:-2.5em 0 0-2.5em}
 .Fetlife .ft{transform:translateZ(2.5em)}
 .Fetlife .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .Fetlife .bm,.Fetlife .lt,.Fetlife .rt,.Fetlife .tp,.reddit{width:5em;height:5em}
-.Fetlife .face{border:2px double transparent;background:url(..//..//assets/default/fetlife.png)}
+.Fetlife .face{border:2px double transparent;background:url(../../assets/default/fetlife.png)}
 .reddit:active,.reddit:hover{transform:scale(.5em)}
 .reddit:hover{background-color:#fff5;box-shadow:inset 1px 1px 5px 5px rgba(255,255,0,.657);animation:spin2 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards}
 .reddit{transform:translate3D(10em,0,0) rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);opacity:1;margin:-2.5em 0 0-2.5em}
@@ -313,7 +313,7 @@ message{width:inherit}
 .reddit .bm{width:5em;height:5em}
 .reddit .lt,.reddit .rt{height:5em}
 .reddit .tp,.snapchat{width:5em;height:5em}
-.reddit .face{border:2px double transparent;background:url(..//..//assets/default/reddit.png)}
+.reddit .face{border:2px double transparent;background:url(../../assets/default/reddit.png)}
 .reddit .bk,.reddit .ft{width:5em;margin-left:0}
 .reddit .lt,.reddit .rt{width:5em}
 .reddit .bm,.reddit .bm .photon-shader,.reddit .tp,.reddit .tp .photon-shader{border-radius:0}
@@ -341,13 +341,13 @@ message{width:inherit}
 .snapchat .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .snapchat .bm,.snapchat .lt,.snapchat .rt,.snapchat .tp,.tiktok{width:5em;height:5em}
 .snapchat:hover .face,.tiktok:hover .face{border-radius:5px}
-.snapchat .face{border:2px double transparent;background:url(..//..//assets/default/snapchat.png)}
+.snapchat .face{border:2px double transparent;background:url(../../assets/default/snapchat.png)}
 .tiktok:hover{animation:spin4 5s cubic-bezier(.15,1.81,.79,.47) alternate forwards;background-color:#fff5;box-shadow:inset 1px 1px 5px 5px rgba(255,255,0,.657)}
 .tiktok{transform:translate3D(-10em,0,0) rotateX(0) rotateY(0) rotateZ(0);opacity:1;margin:-2.5em 0 0-2.5em}
 .tiktok .ft{transform:translateZ(2.5em)}
 .tiktok .bk{transform:translateZ(-2.5em) rotateY(180deg)}
 .tiktok .bm,.tiktok .lt,.tiktok .rt,.tiktok .tp{width:5em;height:5em}
-.tiktok .face{border:2px double transparent;background:url(..//..//assets/default/tiktok.png)}
+.tiktok .face{border:2px double transparent;background:url(../../assets/default/tiktok.png)}
 .h5,.lkd,.snap,.tikk,.twtr{animation:spin1 1s ease-in-out alternate infinite}
 #myForm .custom-form{margin-top:30vh}
 #find-me .wrap{margin-top:-21px}
