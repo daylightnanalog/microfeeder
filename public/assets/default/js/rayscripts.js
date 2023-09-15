@@ -7,7 +7,7 @@
       onlyInViewport: false
     }
   });
-  new Vue({
+  const app = Vue.createApp({
   el: '#app',
   data() {
     const sendFormData = () => {
