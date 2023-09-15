@@ -224,46 +224,46 @@
     .logo-icon{position:relative;left:-1.389vw}
     .logo{right:34.722vw;font-size:.764vw;font-weight:600;text-transform:uppercase}
     .title{top:16.667vw;left:20.139vw;z-index:2}
-    .title h11{text-transform:uppercase;font-weight:900;letter-spacing:-.347vw;margin-bottom:1.389vw;height:20vh;width:60vw}
-    .title,.title h11 .text-one{position:absolute}
-    .title h11 .text-one label{color:#ccc}
-    .title h21{top:0;left:0;color:#eda7a7;z-index:-1;font-size:3em;font-weight:900;letter-spacing:.139vw}
-    .title h11,.title h21 span,.title h3{font-size:4em}
-    .title h31{font-weight:900;line-height:.8}
-    .logo,.title h11,.title h21,.title h31,.title h31 .text-two,.title p{position:relative}
-    .title h31 .text-two label{position:relative;font-size:4.514vw;top:3.819vw;left:-10.764vw}
-    .title h31,.title p{text-transform:uppercase}
+    .title .h11{text-transform:uppercase;font-weight:900;letter-spacing:-.347vw;margin-bottom:1.389vw;height:20vh;width:60vw}
+    .title,.title .h11 .text-one{position:absolute}
+    .title .h11 .text-one label{color:#ccc}
+    .title .h21{top:0;left:0;color:#eda7a7;z-index:-1;font-size:3em;font-weight:900;letter-spacing:.139vw}
+    .title .h11,.title .h21 span,.title h3{font-size:4em}
+    .title .h31{font-weight:900;line-height:.8}
+    .logo,.title .h11,.title .h21,.title .h31,.title .h31 .text-two,.title p{position:relative}
+    .title .h31 .text-two label{position:relative;font-size:4.514vw;top:3.819vw;left:-10.764vw}
+    .title .h31,.title p{text-transform:uppercase}
     .title p{width:30vw;font-size:.694vw;top:-4.514vw;height:8em}
     .line,.tag{position:fixed}
-    .media bul lib,.tag,.title p{font-weight:500}
+    .media .bul .lib,.tag,.title p{font-weight:500}
     .tag{top:11.528vw;left:70%;padding:.694vw 2.083vw;color:gray}
     .line{left:71.5%;top:13.889vw;background-color:#000;width:15.972vw;height:.069vw}
     .media{position:absolute;left:-8.333vw;top:50%;transform:rotate(-90deg)}
-    .left-right bul,.media bul{list-style:none}
-    .media bul lib{display:inline-block}
-    .media bul lib:not(:last-child){padding-right:4.167vw}
+    .left-right .bul,.media .bul{list-style:none}
+    .media .bul .lib{display:inline-block}
+    .media .bul .lib:not(:last-child){padding-right:4.167vw}
     .left-right{position:absolute;right:2.778vw;bottom:-3%}
-    .left-right bul lib{display:inline-block;padding:.694vw 1.042vw;margin:1.389vw 1.389vw 1.389vw 0;font-size:1.875vw}
+    .left-right .bul .lib{display:inline-block;padding:.694vw 1.042vw;margin:1.389vw 1.389vw 1.389vw 0;font-size:1.875vw}
     .bimg{opacity:0;animation:img-appear 1s linear forwards;animation-delay:2.4s}
     .bimg::after{content:"";top:0;left:0;width:0%;height:100%;background:#8c6c79;position:absolute;animation:rev-img 1.5s cubic-bezier(.19,1,.22,1) forwards;animation-delay:2s}
     .bomtainer  .logo{padding-left:0;margin-left:0;left:0;margin-top:15vh;font-size:1em;white-space:pre-line;float:left;display:inline-flex;margin-right:0;width:100vw!important;padding-top:0;margin-top:2.708vw;margin-bottom:0;transform:translatex(-2.292vw) translatey(25.694vw)!important}
-    .bomtainer,.bomtainer  .logo,.bomtainer .title h21{transform:translatex(0) translatey(0)}
-    .media bul lib{margin-top:3em;padding-top:1em;padding-right:2.222vw!important;padding-bottom:10em;padding-left:3em;font-size:2.153vw;display:inline-flex}
+    .bomtainer,.bomtainer  .logo,.bomtainer .title .h21{transform:translatex(0) translatey(0)}
+    .media .bul .lib{margin-top:3em;padding-top:1em;padding-right:2.222vw!important;padding-bottom:10em;padding-left:3em;font-size:2.153vw;display:inline-flex}
     .bomtainer .bimg img,.bomtainer .tag,.title h1 span{display:flex}
-    .bomtainer .title h31{margin-bottom:4.306vw;align-items:flex-end;display:inline-block;transform:translatex(26.597vw) translatey(-20.208vw)}
-    .bomtainer .title h11,.bomtainer .title h2,.bomtainer .title h3{display:flex;flex-wrap:wrap;position:static}
-    .bomtainer .title h21{transform:translatex(10.588vw) translatey(3.62vw)!important;display:inline-block;padding-top:20.486vw;margin-bottom:.625vw;min-height:32.361vw;height:32.361vw;margin-top:11.597vw}
+    .bomtainer .title .h31{margin-bottom:4.306vw;align-items:flex-end;display:inline-block;transform:translatex(26.597vw) translatey(-20.208vw)}
+    .bomtainer .title .h11,.bomtainer .title h2,.bomtainer .title h3{display:flex;flex-wrap:wrap;position:static}
+    .bomtainer .title .h21{transform:translatex(10.588vw) translatey(3.62vw)!important;display:inline-block;padding-top:20.486vw;margin-bottom:.625vw;min-height:32.361vw;height:32.361vw;margin-top:11.597vw}
     .bomtainer button{top:20em;left:115em;padding-top:.347vw;padding-bottom:.417vw;width:11.042vw}
     .thanksTrans-bio{color:#f9f0f9;background-color:#4a2b54}
     .bomtainer .title{transform:translatex(0) translatey(-12.917vw);padding-bottom:1.875vw;margin-bottom:7.083vw;min-height:57.639vw;margin-right:4.444vw;padding-top:0}
-    .title h21 span{transform:translatex(1.528vw) translatey(-9.236vw);min-height:31.944vw;height:31.944vw}
-    .bomtainer .title h11{transform:translatex(12.069vw) translatey(6.181vw)}
-    .title h31 span{margin-top:8.889vw;min-height:10.417vw;display:inline-block;transform:translatex(-12.361vw) translatey(-27.986vw)}
+    .title .h21 span{transform:translatex(1.528vw) translatey(-9.236vw);min-height:31.944vw;height:31.944vw}
+    .bomtainer .title .h11{transform:translatex(12.069vw) translatey(6.181vw)}
+    .title .h31 span{margin-top:8.889vw;min-height:10.417vw;display:inline-block;transform:translatex(-12.361vw) translatey(-27.986vw)}
     .bomtainer .bimg{transform:translatex(5.208vw) translatey(14.444vw);margin-top:4.097vw}
     .bomtainer .bimg img{transform:translatex(28.819vw) translatey(-62.986vw);margin-bottom:3.403vw;min-height:40.139vw;margin-right:14.514vw;width:51vw}
     .bomtainer .tag span{min-height:10.556vw;width:100%!important}
     .bomtainer .tag{padding-left:0;margin-top:7.292vw;padding-top:7.153vw}
-    .title h11 label{margin-right:9.375vw;margin-bottom:6.806vw;min-height:19.861vw;width:49.722vw;transform:translatex(6.319vw) translatey(-7.222vw)}
+    .title .h11 label{margin-right:9.375vw;margin-bottom:6.806vw;min-height:19.861vw;width:49.722vw;transform:translatex(6.319vw) translatey(-7.222vw)}
     #app .projectsb div main #projectsb .bomtainer .bimg img{height:0!important}
     .wrap{top:0;left:0;right:0}
     .tridiv{perspective:34.722vw;position:absolute;overflow:hidden;width:100%;height:100%}
