@@ -33,6 +33,7 @@
     }
   }
 })
+app.mount('#app')
 TweenMax.from(".logo", 1.6, {
             delay: .2,
             opacity: 0,
