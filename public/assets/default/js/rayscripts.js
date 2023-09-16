@@ -7,14 +7,14 @@
           onlyInViewport: false
       }
   });
-  const Home = { template: '<router-link to="/home">Home</router-link>' }
+  const '/' = { template: '<router-link to="/home">Home</router-link>' }
 const Bio = { template: '<router-link to="/bio">Bio</router-link>' }
 const Blog = { template: '<router-link to="/blog">Blog</router-link>' }
 const Menu = { template: '<router-link to="/menu">Menu</router-link>' }
 const Links = { template: '<router-link to="/linka">Links</router-link>' }
-const Blogs = { template: '<router-link to="/bloga">Blogs</router-link>' }
+const Blogs = { template: '<router-link to="/blogs">Blogs</router-link>' }
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: / },
   { path: '/bio', component: Bio },
   { path: '/blog', component: Blog },
   { path: '/menu', component: Menu },
