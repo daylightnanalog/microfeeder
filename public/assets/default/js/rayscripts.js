@@ -35,7 +35,7 @@ const router = VueRouter.createRouter({
               var xhr = new XMLHttpRequest();
               xhr.open("POST", "https://script.google.com/macros/s/AKfycbwkurjluWM0bqKLvKZno2Y46RN1OVFFQQOW9XypqKSRk6ZQfoQ2vgYyq60m6HG5Chw/exec");
               xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded', 'Access-Control-Allow-Origin');
-
+             link: '{{_microfeed.web_url}}'
 
               // url encode form data for sending as post data
               let data = Object.fromEntries(formData.entries());
