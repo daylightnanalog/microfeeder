@@ -8,11 +8,11 @@
       }
   });
   const Home = { template: '<router-link to="/home">Home</router-link>' }
-const Bio = { template: '<router-link to="/home">Home</router-link>' }
-const Blog = { template: '<router-link to="/home">Home</router-link>' }
-const Menu = { template: '<router-link to="/home">Home</router-link>' }
-const Links = { template: '<router-link to="/home">Home</router-link>' }
-const Blogs = { template: '<router-link to="/home">Home</router-link>' }
+const Bio = { template: '<router-link to="/bio">Bio</router-link>' }
+const Blog = { template: '<router-link to="/blog">Blog</router-link>' }
+const Menu = { template: '<router-link to="/menu">Menu</router-link>' }
+const Links = { template: '<router-link to="/linka">Links</router-link>' }
+const Blogs = { template: '<router-link to="/bloga">Blogs</router-link>' }
 const routes = [
   { path: '/', component: Home },
   { path: '/bio', component: Bio },
