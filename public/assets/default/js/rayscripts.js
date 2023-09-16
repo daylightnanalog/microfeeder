@@ -1,125 +1,145 @@
   const swiper = new Swiper('.swiper-container', {
-    direction: 'vertical',
-    mousewheel: {},
-    effect: 'cube',
-    keyboard: {
-      enabled: true,
-      onlyInViewport: false
-    }
+      direction: 'vertical',
+      mousewheel: {},
+      effect: 'cube',
+      keyboard: {
+          enabled: true,
+          onlyInViewport: false
+      }
   });
-  const app = Vue.createApp({
-  el: '#app',
-  data() {
-    const sendFormData = () => {
-      var form = document.getElementById("myForm");
-      var formData = new FormData(form);
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "https://script.google.com/macros/s/AKfycbwkurjluWM0bqKLvKZno2Y46RN1OVFFQQOW9XypqKSRk6ZQfoQ2vgYyq60m6HG5Chw/exec");
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded', 'Access-Control-Allow-Origin');
+  const Home = { template: '<router-link to="/home">Home</router-link>' }
+const bio = { template: '<router-link to="/home">Home</router-link>' }
+const blog = { template: '<router-link to="/home">Home</router-link>' }
+const menu = { template: '<router-link to="/home">Home</router-link>' }
+const links = { template: '<router-link to="/home">Home</router-link>' }
+const blogs = { template: '<router-link to="/home">Home</router-link>' }
+const routes = [
+  { path: '/', component: Home },
+  { path: '/bio', component: Bio },
+  { path: '/blog', component: Blog },
+  { path: '/menu', component: Menu },
+  { path: '/links', component: Links },
+  { path: '/blogs', component: Blogs },
+]
 
-
-      // url encode form data for sending as post data
-      let data = Object.fromEntries(formData.entries());
-      var encoded = Object.keys(data).map(function(k) {
-          return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-      }).join('&');
- 
-      xhr.send(encoded);
-    }
-
-    return {
-     sendEmail: sendFormData,
-     bg: 'bio'
-    }
-  }
+const router = VueRouter.createRouter({
+  history: VueRouter.createWebHashHistory(),
+  routes, 
 })
-app.mount('#app')
-TweenMax.from(".logo", 1.6, {
-            delay: .2,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-        })
+  const app = Vue.createApp({
+      el: '#app',
+      data() {
+          const sendFormData = () => {
+              var form = document.getElementById("myForm");
+              var formData = new FormData(form);
+              var xhr = new XMLHttpRequest();
+              xhr.open("POST", "https://script.google.com/macros/s/AKfycbwkurjluWM0bqKLvKZno2Y46RN1OVFFQQOW9XypqKSRk6ZQfoQ2vgYyq60m6HG5Chw/exec");
+              xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded', 'Access-Control-Allow-Origin');
 
-        TweenMax.from(".search", 1.6, {
-            delay: .4,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-        })
 
-        TweenMax.from(".logo-icon", 1.6, {
-            delay: 0,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-        })
+              // url encode form data for sending as post data
+              let data = Object.fromEntries(formData.entries());
+              var encoded = Object.keys(data).map(function(k) {
+                  return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+              }).join('&');
 
-        TweenMax.staggerFrom(".text-one", 2, {
-            delay: 2.6,
-            opacity: 0,
-            y: 40,
-            ease: Expo.easeInOut
-        }, 0.2)
+              xhr.send(encoded);
+          }
 
-        TweenMax.staggerFrom(".text-two", 1.5, {
-            delay: 3.4,
-            opacity: 0,
-            y: -40,
-            ease: Expo.easeInOut
-        }, 0.2)
-        TweenMax.staggerFrom(".text-two label", 1, {
-            delay: 4,
-            opacity: 0,
+          return {
+              sendEmail: sendFormData,
+              bg: 'bio'
+          }
+      }
+  })
+  app.use(router)
+  app.mount('#app')
+  TweenMax.from(".logo", 1.6, {
+      delay: .2,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+  })
 
-            ease: Expo.easeInOut
-        }, 0.2)
+  TweenMax.from(".search", 1.6, {
+      delay: .4,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+  })
 
-        TweenMax.staggerFrom("h21", 2, {
-            delay: 4,
-            opacity: 0,
-            x: -60,
-            ease: Expo.easeInOut
-        }, 0.2)
+  TweenMax.from(".logo-icon", 1.6, {
+      delay: 0,
+      opacity: 0,
+      y: 20,
+      ease: Expo.easeInOut
+  })
 
-        TweenMax.staggerFrom(".text-three", 2, {
-            delay: 4.7,
-            opacity: 0,
-            y: 40,
-            ease: Expo.easeInOut
-        }, 0.2)
+  TweenMax.staggerFrom(".text-one", 2, {
+      delay: 2.6,
+      opacity: 0,
+      y: 40,
+      ease: Expo.easeInOut
+  }, 0.2)
 
-        TweenMax.from("button", 2, {
-            delay: 5.5,
-            opacity: 0,
-            y: -30,
-            ease: Expo.easeInOut
-        })
+  TweenMax.staggerFrom(".text-two", 1.5, {
+      delay: 3.4,
+      opacity: 0,
+      y: -40,
+      ease: Expo.easeInOut
+  }, 0.2)
+  TweenMax.staggerFrom(".text-two label", 1, {
+      delay: 4,
+      opacity: 0,
 
-        TweenMax.from(".line", 2, {
-            delay: 5,
-            opacity: 0,
-            x: -100,
-            ease: Expo.easeInOut
-        })
+      ease: Expo.easeInOut
+  }, 0.2)
 
-        TweenMax.from(".tag", 2, {
-            delay: 5.3,
-            opacity: 0,
-            y: -30,
-            ease: Expo.easeInOut
-        })
+  TweenMax.staggerFrom("h21", 2, {
+      delay: 4,
+      opacity: 0,
+      x: -60,
+      ease: Expo.easeInOut
+  }, 0.2)
 
-        TweenMax.staggerFrom(".media bul lib", 2, {
-            delay: 6,
-            opacity: 0,
-            y: -40,
-            ease: Expo.easeInOut
-        }, 0.2)
+  TweenMax.staggerFrom(".text-three", 2, {
+      delay: 4.7,
+      opacity: 0,
+      y: 40,
+      ease: Expo.easeInOut
+  }, 0.2)
 
-        TweenMax.staggerFrom(".left-right bul lib", 2, {
-            delay: 6.4,
-            opacity: 0,
-            y: -40,
-            ease: Expo.easeInOut
-        }, 0.2)
+  TweenMax.from("button", 2, {
+      delay: 5.5,
+      opacity: 0,
+      y: -30,
+      ease: Expo.easeInOut
+  })
+
+  TweenMax.from(".line", 2, {
+      delay: 5,
+      opacity: 0,
+      x: -100,
+      ease: Expo.easeInOut
+  })
+
+  TweenMax.from(".tag", 2, {
+      delay: 5.3,
+      opacity: 0,
+      y: -30,
+      ease: Expo.easeInOut
+  })
+
+  TweenMax.staggerFrom(".media bul lib", 2, {
+      delay: 6,
+      opacity: 0,
+      y: -40,
+      ease: Expo.easeInOut
+  }, 0.2)
+
+  TweenMax.staggerFrom(".left-right bul lib", 2, {
+      delay: 6.4,
+      opacity: 0,
+      y: -40,
+      ease: Expo.easeInOut
+  }, 0.2)
