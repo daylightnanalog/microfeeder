@@ -11,15 +11,15 @@
 const Bio = { template: '<router-link to="/bio">Bio</router-link>' }
 const Blog = { template: '<router-link to="/blog">Blog</router-link>' }
 const Menu = { template: '<router-link to="/menu">Menu</router-link>' }
-const Links = { template: '<router-link to="/linka">Links</router-link>' }
-const Blogs = { template: '<router-link to="/blogs">Blogs</router-link>' }
+const Links = { template: '<router-link to="/links">Links</router-link>' }
+const Blogs = { name: 'blogs' }
 const routes = [
   { path: '/', component: / },
   { path: '/bio', component: Bio },
   { path: '/blog', component: Blog },
   { path: '/menu', component: Menu },
   { path: '/links', component: Links },
-  { path: '/blogs', component: Blogs },
+  { component: Blogs },
 ]
 
 const router = VueRouter.createRouter({
